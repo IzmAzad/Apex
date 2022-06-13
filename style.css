@@ -1051,27 +1051,30 @@ a {
 @media (max-width: 1600px) {
   .container {
     max-width: 1440px;
+    margin: 0 auto;
   }
 }
 @media (max-width: 1400px) {
   .container {
     max-width: 1024px;
+    margin: 0 auto;
   }
 }
 @media (max-width: 1024px) {
   .container {
     max-width: 768px;
+    margin: 0 auto;
   }
 }
 @media (max-width: 767px) {
   .container {
     max-width: none;
+    margin: 0 auto;
   }
   .head__list li,
   a {
-    display: inline-block;
     display: flex;
-    flex-wrap: nowrap;
+
     justify-content: space-between;
   }
   .head__listtitle {
@@ -1103,5 +1106,84 @@ a {
   li {
     display: flex;
     justify-content: center;
+  }
+}
+@media (max-width: 767px) {
+  .head__list {
+    color: red;
+  }
+  .head__bodytext {
+    font-size: 29px;
+    line-height: 30px;
+  }
+  .head__bodybotom a {
+    font-size: 22px;
+  }
+  .features__text,
+  .features__title {
+    font-size: 24px;
+  }
+  .meet__text,
+  .p1,
+  .p2 {
+    font-size: 30px;
+    line-height: 30px;
+  }
+  .start__text {
+    font-size: 30px;
+    line-height: 30px;
+    padding-left: 30px;
+    padding-bottom: 90px;
+  }
+  .start__botom a {
+    font-size: 20px;
+  }
+  .hello,
+  .nice,
+  .hi {
+    font-size: 20px;
+    line-height: 20px;
+  }
+  .client__bodytext,
+  .client__body2text,
+  .client__bodytitle,
+  .clientbody2__title,
+  .orders__emailtext,
+  .orders__emailtitle,
+  .orders__messagestitle.orders__messagetext.orders__message2text.orders__message2title.orders__facebooktext.orders__facebooktitle {
+    font-size: 30px;
+    line-height: 30px;
+  }
+  .orders__messagestitle,
+  .orders__messagetext {
+    font-size: 30px;
+  }
+  .orders__facebooktext,
+  .orders__facebooktitle {
+    font-size: 30px;
+  }
+  .orders__message2text,
+  .orders__message2title {
+    font-size: 30px;
+  }
+  .head__list {
+    display: inline-block;
+  }
+  .head__list a,
+  li {
+    font-size: 30px;
+    line-height: 30px;
+    padding-top: 10px;
+    margin: 0 auto;
+  }
+  .free {
+    font-size: 30px;
+    line-height: 30px;
+  }
+  .ready__row {
+    margin: 0 auto;
+  }
+  .ready__image {
+    margin: 0 auto;
   }
 }
