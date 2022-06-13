@@ -1186,4 +1186,17 @@ a {
   .ready__image {
     margin: 0 auto;
   }
+  .client__body2text {
+    padding-top: 28px;
+  }
+  .orders__text {
+    font-size: 25px;
+    line-height: 30px;
+    padding-top: 20px;
+  }
+  .ready__list a,
+  li {
+    font-size: 30px;
+    /* line-height: 0px; */
+  }
 }
